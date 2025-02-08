@@ -73,3 +73,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.responsive-img {
+    max-width: 100%;  /* Ensures image does not exceed container width */
+    max-height: 80vh; /* Prevents it from overflowing the screen height */
+    width: auto;      /* Maintains original aspect ratio */
+    height: auto;     /* Maintains original aspect ratio */
+    display: block;   /* Removes extra spacing */
+    margin: 0 auto;   /* Centers the image horizontally */
+    border-radius: 12px; /* (Optional) Gives slightly rounded edges */
+}
